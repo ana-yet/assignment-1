@@ -111,3 +111,71 @@ a {
   font-size: 19px;
   line-height: 28px;
 }
+/* Future Vision Styles */
+.future-vision {
+  margin-bottom: 38px;
+}
+
+.future-title {
+  font-weight: 700;
+  font-size: 48px;
+  color: rgb(14, 14, 14);
+  margin-bottom: 28px;
+}
+.future-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 38px;
+}
+.future-containers {
+  display: flex;
+  gap: 29px;
+}
+.future-container-style {
+  border-radius: 19px;
+  padding: 38px;
+}
+.future-container-a {
+  background: rgba(84, 144, 245, 0.2);
+}
+.future-container-b {
+  background-color: #c6e4d6;
+}
+.future-container-c {
+  background-color: #f7ebcf;
+}
+.container-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 24px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.container-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 2px 0 28px;
+}
+.future-btn-style {
+  width: 146px;
+  height: 49px;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 22px;
+  border: none;
+  border-radius: 8px;
+}
+.future-btn-a {
+  color: rgb(255, 255, 255);
+  background: rgb(84, 144, 245);
+}
+.future-btn-b {
+  color: rgb(255, 255, 255);
+  background: rgb(9, 161, 92);
+}
+.future-btn-c {
+  color: rgb(255, 255, 255);
+  background: rgb(255, 194, 57);
+}
