@@ -179,3 +179,34 @@ a {
   color: rgb(255, 255, 255);
   background: rgb(255, 194, 57);
 }
+/* Future Lecture styles */
+.future-lecture {
+  margin-bottom: 96px;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 30px 35px;
+}
+.future-lecture {
+  padding: 58px 30px;
+  box-sizing: border-box;
+  border: 2px solid rgba(14, 14, 14, 0.15);
+  border-radius: 19px;
+}
+.lecture-description {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+.lecturer-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.lecturer {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 19px;
+  font-weight: 400;
+}
