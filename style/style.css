@@ -8,9 +8,13 @@
 body {
   font-family: "Fira Sans", serif;
 }
+main {
+  width: 1536px;
+  margin: 0 192px;
+}
 /* Header Styles */
 .header {
-  margin: 0 192px 80px;
+  margin: 0 181px 80px;
 }
 nav {
   display: flex;
@@ -74,4 +78,36 @@ a {
   border-radius: 9px;
   background: rgb(0, 106, 80);
   border: none;
+}
+/*Pillars styles  */
+.pillars {
+  /* background-color: gray; */
+  margin-bottom: 96px;
+}
+.pillars-title {
+  color: rgb(14, 14, 14);
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 38px;
+}
+.pillars-container {
+  display: flex;
+  gap: 28px;
+}
+.pillar {
+  background-color: #ffffff;
+  border: 2px solid rgba(14, 14, 14, 0.15);
+  border-radius: 19px;
+  padding: 28px;
+}
+.pillar-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: 700;
+  font-size: 24px;
+}
+.pillar-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
 }
