@@ -369,3 +369,63 @@ input[type="number"] {
   text-align: center;
   justify-content: center;
 }
+/* Subscribe News */
+.subscribe {
+  background: #c6e4d6;
+  padding: 96px 120px;
+  border-radius: 28px;
+  margin-bottom: 96px;
+}
+.subscribe-title {
+  color: rgb(14, 14, 14);
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.subscribe-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 19px;
+  padding: 0 76px;
+}
+.news-form {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-form input {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  width: 720px;
+  padding: 15px 48px;
+  outline: none;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  background: rgb(255, 255, 255);
+}
+.subscribe-btn {
+  color: rgb(255, 255, 255);
+  background: #006a50;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  width: 180px;
+  height: 52px;
+  border: none;
+  text-align: center;
+}
+.subscriber-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  margin: 28px;
+}
