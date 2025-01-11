@@ -13,6 +13,16 @@ main {
   width: 1536px;
   margin: 0 192px;
 }
+/* button:hover {
+  color: rgb(77, 78, 100);
+  font-weight: bold;
+  background-color: green;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(17, 19, 18);
+  width: 139px;
+  height: 62px;
+} */
 /* Header Styles */
 .header {
   margin: 0 181px 80px;
@@ -280,4 +290,82 @@ a {
   font-size: 18px;
   font-weight: 600;
   border: none;
+}
+/* Donation Section Styles */
+.donation {
+  padding: 0 88px;
+  margin-bottom: 96px;
+}
+.donate-title {
+  color: rgb(14, 14, 14);
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 28px;
+}
+.donate-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+.amount-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  margin: 38px 0;
+}
+.amount-button {
+  border: 2px solid rgba(14, 14, 14, 0.15);
+  border-radius: 19px;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  padding: 48px;
+  font-size: 48px;
+  font-weight: 700;
+}
+.amount-button:hover,
+.active {
+  background: #c6e4d6;
+}
+.active:hover {
+  background: gray;
+  color: white;
+}
+.custom-amount {
+  margin: 38px;
+  display: flex;
+  justify-content: center;
+}
+.custom-amount input {
+  width: 1100px;
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 24px;
+  font-weight: 400;
+  padding: 20px 40px 20px 40px;
+  border: none;
+  text-align: center;
+  outline: none;
+}
+.custom-amount input[type="number"]::-webkit-inner-spin-button,
+input[type="number"] {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.submit-button {
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 10px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 600;
+  padding: 20px 38px;
+}
+.submit-btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
