@@ -13,16 +13,18 @@ main {
   width: 1536px;
   margin: 0 192px;
 }
-/* button:hover {
-  color: rgb(77, 78, 100);
+button:hover {
+  color: white;
   font-weight: bold;
-  background-color: green;
-  font-size: 15px;
+  background: linear-gradient(to bottom, #a000ff, #4b0082);
   border-radius: 5px;
-  border: 1px solid rgb(17, 19, 18);
-  width: 139px;
-  height: 62px;
-} */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+h2:hover,
+h3:hover {
+  color: green;
+}
+
 /* Header Styles */
 .header {
   margin: 0 181px 80px;
@@ -61,7 +63,6 @@ a {
   height: 672px;
   border-radius: 24px;
   background: rgb(198, 228, 214);
-  /* padding: 96px 120px; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -326,12 +327,11 @@ a {
   font-size: 48px;
   font-weight: 700;
 }
-.amount-button:hover,
 .active {
   background: #c6e4d6;
 }
-.active:hover {
-  background: gray;
+.amount-button:hover {
+  background: linear-gradient(to bottom, #0004ff, #00824c);
   color: white;
 }
 .custom-amount {
