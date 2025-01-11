@@ -429,3 +429,22 @@ input[type="number"] {
   text-align: center;
   margin: 28px;
 }
+/* footer */
+.footer {
+  padding: 60px 286px;
+  background: #ffffff;
+}
+.footer-title {
+  color: rgb(14, 14, 14);
+  font-size: 39px;
+  font-weight: 700;
+  margin: 60px 0 35px 0;
+  text-align: center;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+  margin-top: 44px;
+}
